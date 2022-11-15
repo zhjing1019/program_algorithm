@@ -12,7 +12,7 @@
   使用arr[i] = ((rand () % (b - a + 1)) + a)
   这种方式方式取值会有问题，导致概率不均，所以按照拼接成大数的方式来获取大数随机数
 ```C++
-int i, n;
+    int i, n;
     unsigned long long arr[maxSize];
     //   a为-10的100次方  b为10的100次方
     // int a = -pow(10, 100);
@@ -54,31 +54,31 @@ for(i = 1; i < n; i++) { // 共作n-1趟选择排序
 ##### 选择排序算法执行结果
 1、选择排序10个数(范围是-10的100次方～10的100次方)所花费的时间0.00011675s
 
-![排序10个数](/image/selectSort10.jpg)
+![排序10个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/selectSort10.png)
 
 2、选择排序100个数(范围是-10的100次方～10的100次方)所花费的时间0.0019795s
 
-![排序100个数](/image/selectSort100.jpg)
+![排序100个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/selectSort100.png)
 
 3、选择排序1000个数(范围是-10的100次方～10的100次方)所花费的时间0.0305028s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1000个数](/image/selectSort1000.jpg)
+![排序1000个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/selectSort1000.png)
 
 4、选择排序1w个数(范围是-10的100次方～10的100次方)所花费的时间0.226022s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1w个数](/image/selectSort1w.jpg)
+![排序1w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/selectSort1w.png)
 
 5、选择排序10w个数(范围是-10的100次方～10的100次方)所花费的时间7.4667s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序10w个数](/image/selectSort10w.jpg)
+![排序10w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/selectSort10w.png)
 
 6、选择排序10w个数(范围是-10的100次方～10的100次方)所花费的时间644.349s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序100w个数](/image/selectSort100w.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/selectSort100w.png)
 
 ##### 选择排序的算法分析
 选择排序的复杂度分析。第一次内循环比较N - 1次，然后是N-2次，N-3次，……，最后一次内循环比较1次。
@@ -126,34 +126,34 @@ arr[i] = temp[i];
 ##### 归并排序算法执行结果
 1、归并排序10个数(范围是-10的100次方～10的100次方)所花费的时间8.3875e-05s
 
-![排序10个数](/image/selectSort10.jpg)
+![排序10个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/mergeSort10.png)
 
 2、归并排序100个数(范围是-10的100次方～10的100次方)所花费的时间0.001103s
 
-![排序100个数](/image/selectSort100.jpg)
+![排序100个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/mergeSort100.png)
 
 3、归并排序1000个数(范围是-10的100次方～10的100次方)所花费的时间0.029731s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1000个数](/image/selectSort1000.jpg)
+![排序1000个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/mergeSort1000.png)
 
 4、归并排序1w个数(范围是-10的100次方～10的100次方)所花费的时间0.153404s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1w个数](/image/selectSort1w.jpg)
+![排序1w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/mergeSort1w.png)
 
 5、归并排序10w个数(范围是-10的100次方～10的100次方)所花费的时间1.25694s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序10w个数](/image/selectSort10w.jpg)
+![排序10w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/mergeSort10w.png)
 
 6、归并排序100w个数(范围是-10的100次方～10的100次方),排序没跑出来
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序100w个数](/image/selectSort100w.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/mergeSort100w.png)
 
 ##### 归并排序的算法分析
-https://zhuanlan.zhihu.com/p/341225128
+
 空间复杂度分析：需要O(n),因为需要一个额外的，大小为n数组来存放临时数据。
 
 时间复杂度分析：归并排序的时间复杂度均为O(nlog2n)
@@ -219,31 +219,31 @@ void quickSort(int *arr,int begin,int end)
 ##### 快速排序算法执行结果 
 1、快速排序10个数(范围是-10的100次方～10的100次方)所花费的时间5.9792e-05s
 
-![排序10个数](/image/selectSort10.jpg)
+![排序10个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/quickSort10.png)
 
 2、快速排序100个数(范围是-10的100次方～10的100次方)所花费的时间0.00128517s
 
-![排序100个数](/image/selectSort100.jpg)
+![排序100个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/quickSort100.png)
 
 3、快速排序1000个数(范围是-10的100次方～10的100次方)所花费的时间0.0281961s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1000个数](/image/selectSort1000.jpg)
+![排序1000个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/quickSort1000.png)
 
 4、快速排序1w个数(范围是-10的100次方～10的100次方)所花费的时间0.181035s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1w个数](/image/selectSort1w.jpg)
+![排序1w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/quickSort1w.png)
 
 5、快速排序10w个数(范围是-10的100次方～10的100次方)所花费的时间1.22785s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序10w个数](/image/selectSort10w.jpg)
+![排序10w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/quickSort10w.png)
 
 6、快速排序10w个数(范围是-10的100次方～10的100次方)所花费的时间11.9567s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序100w个数](/image/selectSort100w.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/quickSort100w.png)
 
 ##### 快速排序的算法分析
 平均时间复杂度为O(nlogn)，最坏的时间复杂度为O(n²)。
@@ -254,33 +254,54 @@ void quickSort(int *arr,int begin,int end)
 ##### 希尔排序算法执行结果
 1、希尔排序10个数(范围是-10的100次方～10的100次方)所花费的时间0.000108125s
 
-![排序10个数](/image/selectSort10.jpg)
+![排序10个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/shellSort10.png)
 
 2、希尔排序100个数(范围是-10的100次方～10的100次方)所花费的时间0.0012755s
 
-![排序100个数](/image/selectSort100.jpg)
+![排序100个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/shellSort100.png)
 
 3、希尔排序1000个数(范围是-10的100次方～10的100次方)所花费的时间0.0282804s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1000个数](/image/selectSort1000.jpg)
+![排序1000个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/shellSort1000.png)
 
 4、希尔排序1w个数(范围是-10的100次方～10的100次方)所花费的时间0.174639s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1w个数](/image/selectSort1w.jpg)
+![排序1w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/shellSort1w.png)
 
 5、希尔排序10w个数(范围是-10的100次方～10的100次方)所花费的时间1.22705s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序10w个数](/image/selectSort10w.jpg)
+![排序10w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/shellSort10w.png)
 
 6、希尔排序100w个数(范围是-10的100次方～10的100次方)所花费的时间12.0249s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序100w个数](/image/selectSort100w.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/shellSort100w.png)
 
 ##### 希尔排序的算法分析
+① 时间复杂度：
+
+希尔排序的时间复杂度依赖增量序列的函数(和增量序列有关)这个涉及数学上尚未解决的问题，时间复杂度分析比较困难；
+
+当n在某个特定范围时，希尔排序的时间复杂度约为O(n^1.3）;
+
+最坏 的情况下，时间复杂度为O(n^2);
+
+但是优于直接插入排序！！！
+
+② 空间复杂度：
+
+仅仅使用了常数个辅助单元，空间复杂度是O(1);
+
+③ 算法稳定性：
+
+由于多次插入排序，我们知道一次插入排序是稳定的，不会改变相同元素的相对顺序，
+
+但在不同的插入排序过程中，相同的元素可能在各自的插入排序中移动，最后其稳定性就会被打乱
+
+所以 希尔shell排序是不稳定的。
 
 
 ### 五、基数排序
@@ -296,34 +317,34 @@ arr为原始数组，从最低位开始取每个位组成radix数组；
 ##### 基数排序算法执行结果
 1、基数排序10个数(范围是-10的100次方～10的100次方)所花费的时间0.000135375s
 
-![排序10个数](/image/selectSort10.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/radixSort10.png)
 
 2、基数排序100个数(范围是-10的100次方～10的100次方)所花费的时间0.000467334s
 
-![排序100个数](/image/selectSort100.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/radixSort100.png)
 
 3、基数排序1000个数(范围是-10的100次方～10的100次方)所花费的时间1.5515ss
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1000个数](/image/selectSort1000.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/radixSort1000.png)
 
 4、基数排序1w个数(范围是-10的100次方～10的100次方)所花费的时间0.174639s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序1w个数](/image/selectSort1w.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/radixSort1w.png)
 
 5、基数排序10w个数(范围是-10的100次方～10的100次方)所花费的时间1.22705s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序10w个数](/image/selectSort10w.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/radixSort10w.png)
 
 6、基数排序100w个数(范围是-10的100次方～10的100次方)所花费的时间12.0249s
 (由于排序数目过多就不截图排序后的及结果)
 
-![排序100w个数](/image/selectSort100w.jpg)
+![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/radixSort100w.png)
 
 ##### 基数排序的算法分析
-
+假设在基数排序中，r为基数，d为位数。则基数排序的时间复杂度为O(d(n+r))。
 
 
 

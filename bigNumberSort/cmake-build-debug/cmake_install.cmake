@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zhangjing/clionProject/untitled
+# Install script for directory: /Users/zhangjing/zhangjinggithub/program_algorithm/bigNumberSort
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/zhangjing/clionProject/untitled/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/zhangjing/zhangjinggithub/program_algorithm/bigNumberSort/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/zhangjing/clionProject/untitled/cmake-build-debug/
+cmake_ninja_workdir = /Users/zhangjing/zhangjinggithub/program_algorithm/bigNumberSort/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target untitled
 
@@ -46,7 +46,7 @@ cmake_ninja_workdir = /Users/zhangjing/clionProject/untitled/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled: phony || CMakeFiles/untitled.dir
 
-build CMakeFiles/untitled.dir/Prim.cpp.o: CXX_COMPILER__untitled_Debug /Users/zhangjing/clionProject/untitled/Prim.cpp || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/Prim.cpp.o: CXX_COMPILER__untitled_Debug /Users/zhangjing/zhangjinggithub/program_algorithm/bigNumberSort/Prim.cpp || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/Prim.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu++14
   OBJECT_DIR = CMakeFiles/untitled.dir
@@ -76,7 +76,7 @@ build untitled: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/Pr
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zhangjing/clionProject/untitled/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/zhangjing/zhangjinggithub/program_algorithm/bigNumberSort/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zhangjing/clionProject/untitled/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/zhangjing/clionProject/untitled -B/Users/zhangjing/clionProject/untitled/cmake-build-debug
+  COMMAND = cd /Users/zhangjing/zhangjinggithub/program_algorithm/bigNumberSort/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/zhangjing/zhangjinggithub/program_algorithm/bigNumberSort -B/Users/zhangjing/zhangjinggithub/program_algorithm/bigNumberSort/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +103,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/zhangjing/clionProject/untitled/cmake-build-debug
+# Folder: /Users/zhangjing/zhangjinggithub/program_algorithm/bigNumberSort/cmake-build-debug
 
 build all: phony untitled
 
