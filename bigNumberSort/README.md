@@ -250,6 +250,7 @@ void quickSort(int *arr,int begin,int end)
 
 ### 四、希尔排序
 ##### 希尔排序的代码思想 
+希尔排序的是插入排序的提升。它是通过将数据根据每一次的步长不断的将数据进行分组，并且进行处理，使得数值序列整体不会变得太过杂乱。使得在利用插入排序的过程中减少交换的次数，从而使整体得到优化。
 
 ##### 希尔排序算法执行结果
 1、希尔排序10个数(范围是-10的100次方～10的100次方)所花费的时间0.000108125s
@@ -323,7 +324,7 @@ arr为原始数组，从最低位开始取每个位组成radix数组；
 
 ![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/radixSort100.png)
 
-3、基数排序1000个数(范围是-10的100次方～10的100次方)所花费的时间1.5515ss
+3、基数排序1000个数(范围是-10的100次方～10的100次方)所花费的时间0.01793s
 (由于排序数目过多就不截图排序后的及结果)
 
 ![排序100w个数](https://github.com/zhjing1019/program_algorithm/blob/main/bigNumberSort/image/radixSort1000.png)
